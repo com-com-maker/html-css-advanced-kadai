@@ -58,7 +58,7 @@ header {
   width: 100%;
   z-index: 11;
 }
-#main-message > h1 {
+#main-message h1 {
   font-size: 60px;
   margin: 100px 0 0 50px;
 }
@@ -107,7 +107,7 @@ h3 {
 #product {
   background-color: #fafafa;
   margin: 80px 0 80px 0;
-  padding: 10px 40px 0 40px;
+  padding: 10px 40px 0px 40px;
 }
 /*外枠*/
 #product .product-flex {
@@ -130,7 +130,7 @@ h3 {
 #product-left > div {
   position: relative;
   height: 480px;
-  margin-left: 20px;
+  margin-right: 20px;
 }
 #product-right > div {
   position: relative;
@@ -158,7 +158,7 @@ h3 {
   color: #2710d5;
   font-weight: bold;
   font-size: 16px;
-  margin: 0;
+  margin: 0px;
 }
 
 /*説明文の見出し*/
@@ -176,7 +176,7 @@ h3 {
   text-align: center;
 }
 #product-more a {
-  position: relateve;
+  position: relative;
   bottom: -42px;
 }
 
@@ -211,7 +211,7 @@ h3 {
 /* 見出し*/
 .culture-table th {
   text-align: left;
-  font-size: 20px;
+  font-size: 28px;
   font-weight: bold; 
 }
 /* 組織文化英語 */
@@ -291,6 +291,7 @@ h3 {
 .cell {
   padding: 30px;
   border-bottom-color: #ececec;
+  border-bottom-width: 1px;
   border-bottom-style: solid ;
 }
 .cell-first {
@@ -306,7 +307,7 @@ h3 {
 
 /* お問い合わせ */
 #contact {
-  margin: 80px auto 80ps auto;
+  margin: 80px auto 80px auto;
 }
 
 /* 外枠 */
@@ -381,6 +382,9 @@ footer {
 }
 #footer-logo {
   margin-bottom: 30px;
+}
+#footer-link{
+  margin-bottom: 50px;
 }
 #footer-link > a {
   text-decoration: none;
@@ -551,7 +555,7 @@ footer {
     .product-section-right .product-section-img img {
       width: 100%;
       padding: 0 0 30px 40px;
-      border-radius: 432ps 0 0 0 ;
+      border-radius: 432px 0 0 0 ;
     }
     .product-section-right .product-read {
       width: 500px;
@@ -562,7 +566,7 @@ footer {
       margin: 0;
     }
     .product-h3 {
-      font-size: 20px;
+      font-size: 28px;
       margin: 0;
     }
 
@@ -613,7 +617,7 @@ footer {
   }
 
   /* ナビゲーションメニュー用ロゴ */
-  #log-sp {
+  #logo-sp {
     margin: 80px 0 30px 20px;
   } 
 
@@ -695,6 +699,12 @@ footer {
    }
 
    /*プロダクト*/
+   #oroduct {
+    margin:0;
+    padding:10px 20px 0px 20px;
+   }
+
+    /* 外枠 */
    #product .product-flex {
     flex-direction: column;
     margin-top: 0;
@@ -720,7 +730,7 @@ footer {
    }
    .product-explain >h3 {
     margin: 10px 0 10px 0;
-    font-size: 24px 
+    font-size: 24px; 
    }
    /* もっと見るボタン　*/
    #product-more {
@@ -886,7 +896,7 @@ footer {
     padding: 0;
   }
   #mission-five-goals .five-goals-image,
-  #mission-fibe-goals .five-goals-read {
+  #mission-five-goals .five-goals-read {
     width: 100%;
     padding: 0;
   }
@@ -958,6 +968,4 @@ footer {
     order: 2;
     width: 100%;
   }
-
-  
 }
